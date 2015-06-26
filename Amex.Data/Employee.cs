@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Amex.Data
 {
-    public class Class1
+    public class Employee
     {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
     }
 }
